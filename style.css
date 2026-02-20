@@ -337,13 +337,56 @@ font-size:14px;
 }
 
 /* MOBILE */
+/* MOBILE DESKTOP-SCALE MODE */
 
-@media(max-width:800px){
+@media(max-width:768px){
 
-.hero h1{font-size:32px;}
-
-.about{
-grid-template-columns:1fr;
+.container{
+width:95%;
 }
 
+.hero{
+height:75vh;
+}
+
+.hero h1{
+font-size:28px;
+}
+
+.hero p{
+font-size:15px;
+}
+
+.section{
+padding:60px 0;
+}
+
+.about{
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.about img{
+width:100%;
+}
+
+.nav nav{
+gap:15px;
+}
+
+.nav a{
+font-size:14px;
+}
+
+.service-card{
+height:180px;
+}
+
+.footer-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.logo{
+height:40px;
+}
 }
